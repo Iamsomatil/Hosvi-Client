@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Facebook, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -53,6 +53,20 @@ export default function Footer() {
                 <a href="mailto:hello@hosvi.com" className="hover:text-hosvi-primary transition-colors">
                   hello@hosvi.com
                 </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Phone className="w-5 h-5" />
+                <a href="tel:7542070982" className="hover:text-hosvi-primary transition-colors">
+                  (754) 207-0982
+                </a>
+              </div>
+              <div className="flex items-start space-x-2">
+                <MapPin className="w-5 h-5 mt-0.5" />
+                <div className="text-sm">
+                  6421 N. Florida Ave<br />
+                  Suite D-1130<br />
+                  Tampa, FL 33604
+                </div>
               </div>
               <p className="text-sm">
                 Serving Miami, Orlando, and Fort Lauderdale
